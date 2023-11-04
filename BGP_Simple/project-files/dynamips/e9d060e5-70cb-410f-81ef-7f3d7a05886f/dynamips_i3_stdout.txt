@@ -1,0 +1,7 @@
+cygwin warning:
+  MS-DOS style path detected: C:\Users\Luis Daniel Pambid\GNS3\projects\eBGPiBGp\project-files\dynamips
+  Preferred POSIX equivalent is: /cygdrive/c/Users/Luis Daniel Pambid/GNS3/projects/eBGPiBGp/project-files/dynamips
+  CYGWIN environment variable option "nodosfilewarning" turns off this warning.
+  Consult the user's guide for more details about POSIX paths:
+    http://cygwin.com/cygwin-ug-net/using.html#using-pathnames
+C7200 'Ghost': generic_nvram_extract_config: Unknown error -61605

@@ -1,0 +1,55 @@
+Sep 29 06:54:18.395 HYPERVISOR: Release 0.2.17-x86/Windows (tag 2017072410)
+Sep 29 06:54:18.396 HYPERVISOR: Started on IP = localhost, TCP port = 50130.
+Sep 29 06:54:18.883 HYPERVISOR: exec_cmd: hypervisor version 
+Sep 29 06:54:18.883 HYPERVISOR: exec_cmd: hypervisor working_dir C:\Users\Luis Daniel Pambid\GNS3\projects\OSPF EIGP Redistribution\project-files\dynamips 
+Sep 29 06:54:18.884 GENERAL: working_dir=C:\Users\Luis Daniel Pambid\GNS3\projects\OSPF EIGP Redistribution\project-files\dynamips
+Sep 29 06:54:18.884 HYPERVISOR: exec_cmd: hypervisor working_dir C:\Users\Luis Daniel Pambid\GNS3\projects\OSPF EIGP Redistribution\project-files\dynamips\f99a1fc0-250f-47a3-bc62-3aaf14de18a0 
+Sep 29 06:54:18.884 GENERAL: working_dir=C:\Users\Luis Daniel Pambid\GNS3\projects\OSPF EIGP Redistribution\project-files\dynamips\f99a1fc0-250f-47a3-bc62-3aaf14de18a0
+Sep 29 06:54:18.884 HYPERVISOR: exec_cmd: vm create ESW1 2 c3745 
+Sep 29 06:54:18.887 VM: VM ESW1 created.
+Sep 29 06:54:18.887 HYPERVISOR: exec_cmd: vm set_con_tcp_port ESW1 5001 
+Sep 29 06:54:18.888 HYPERVISOR: exec_cmd: c3745 get_mac_addr ESW1 
+Sep 29 06:54:18.889 HYPERVISOR: exec_cmd: vm set_ios ESW1 C:/Users/Luis Daniel Pambid/GNS3/images/IOS/c3745-adventerprisek9-mz.124-25d.image 
+Sep 29 06:54:18.890 HYPERVISOR: exec_cmd: vm get_status ESW1 
+Sep 29 06:54:18.890 HYPERVISOR: exec_cmd: vm set_idle_pc ESW1 0x60aa1da0 
+Sep 29 06:54:18.890 HYPERVISOR: exec_cmd: vm set_exec_area ESW1 64 
+Sep 29 06:54:18.891 HYPERVISOR: exec_cmd: vm set_ram ESW1 256 
+Sep 29 06:54:18.892 HYPERVISOR: exec_cmd: vm set_nvram ESW1 256 
+Sep 29 06:54:18.892 HYPERVISOR: exec_cmd: vm set_disk0 ESW1 1 
+Sep 29 06:54:18.893 HYPERVISOR: exec_cmd: vm get_status ESW1 
+Sep 29 06:54:18.893 HYPERVISOR: exec_cmd: vm slot_add_binding ESW1 1 0 NM-16ESW 
+Sep 29 06:54:18.988 HYPERVISOR: exec_cmd: vm set_ios ESW1 C:/Users/Luis Daniel Pambid/GNS3/images/IOS/c3745-adventerprisek9-mz.124-25d.image 
+Sep 29 06:54:20.311 HYPERVISOR: exec_cmd: vm set_ios ESW1 C:/Users/Luis Daniel Pambid/GNS3/images/IOS/c3745-adventerprisek9-mz.124-25d.image 
+Sep 29 06:54:21.426 HYPERVISOR: exec_cmd: vm set_ios ESW1 C:/Users/Luis Daniel Pambid/GNS3/images/IOS/c3745-adventerprisek9-mz.124-25d.image 
+Sep 29 06:54:24.397 HYPERVISOR: exec_cmd: vm create Ghost 0 c3745 
+Sep 29 06:54:24.400 VM: VM Ghost created.
+Sep 29 06:54:24.404 HYPERVISOR: exec_cmd: vm set_ios Ghost C:/Users/Luis Daniel Pambid/GNS3/images/IOS/c3745-adventerprisek9-mz.124-25d.image 
+Sep 29 06:54:24.405 HYPERVISOR: exec_cmd: vm set_ghost_status Ghost 1 
+Sep 29 06:54:24.406 HYPERVISOR: exec_cmd: vm set_ghost_file Ghost C:\Users\Luis Daniel Pambid\GNS3\projects\OSPF EIGP Redistribution\project-files\dynamips\c3745-adventerprisek9-mz.124-25d.image-256.ghost 
+Sep 29 06:54:24.406 HYPERVISOR: exec_cmd: vm set_ram Ghost 256 
+Sep 29 06:54:24.407 HYPERVISOR: exec_cmd: vm get_status Ghost 
+Sep 29 06:54:24.424 HYPERVISOR: exec_cmd: vm set_config Ghost configs\i0_startup-config.cfg 
+Sep 29 06:54:24.425 HYPERVISOR: exec_cmd: vm start Ghost 
+Sep 29 06:54:24.871 HYPERVISOR: exec_cmd: vm get_status Ghost 
+Sep 29 06:54:24.873 HYPERVISOR: exec_cmd: vm stop Ghost 
+Sep 29 06:54:25.072 VM: VM Ghost shutdown.
+Sep 29 06:54:25.073 HYPERVISOR: exec_cmd: vm extract_config Ghost 
+Sep 29 06:54:25.075 HYPERVISOR: exec_cmd: vm clean_delete Ghost 
+Sep 29 06:54:25.075 VM: VM Ghost destroyed.
+Sep 29 06:54:25.091 HYPERVISOR: exec_cmd: vm set_ghost_status ESW1 2 
+Sep 29 06:54:25.092 HYPERVISOR: exec_cmd: vm set_ghost_file ESW1 C:\Users\Luis Daniel Pambid\GNS3\projects\OSPF EIGP Redistribution\project-files\dynamips\c3745-adventerprisek9-mz.124-25d.image-256.ghost 
+Sep 29 06:54:25.092 HYPERVISOR: exec_cmd: vm get_status ESW1 
+Sep 29 06:54:25.100 HYPERVISOR: exec_cmd: vm set_config ESW1 configs\i2_startup-config.cfg 
+Sep 29 06:54:25.101 HYPERVISOR: exec_cmd: vm start ESW1 
+Sep 29 06:54:31.633 HYPERVISOR: exec_cmd: vm set_ios ESW1 C:/Users/Luis Daniel Pambid/GNS3/images/IOS/c3745-adventerprisek9-mz.124-25d.image 
+Sep 29 06:55:36.006 HYPERVISOR: exec_cmd: vm get_status ESW1 
+Sep 29 06:55:36.006 HYPERVISOR: exec_cmd: vm stop ESW1 
+Sep 29 06:55:36.154 VM: VM ESW1 shutdown.
+Sep 29 06:55:36.155 HYPERVISOR: exec_cmd: vm extract_config ESW1 
+Sep 29 06:55:38.919 HYPERVISOR: exec_cmd: vm get_status ESW1 
+Sep 29 06:55:38.920 HYPERVISOR: exec_cmd: vm extract_config ESW1 
+Sep 29 06:55:38.930 HYPERVISOR: exec_cmd: vm delete ESW1 
+Sep 29 06:55:38.930 VM: VM ESW1 destroyed.
+Sep 29 06:55:38.933 HYPERVISOR: exec_cmd: hypervisor stop 
+Sep 29 06:55:39.440 HYPERVISOR: Stopped.
+Sep 29 06:55:39.440 GENERAL: reset done.

@@ -1,0 +1,53 @@
+Sep 29 06:55:44.280 HYPERVISOR: Release 0.2.17-x86/Windows (tag 2017072410)
+Sep 29 06:55:44.282 HYPERVISOR: Started on IP = localhost, TCP port = 50179.
+Sep 29 06:55:44.744 HYPERVISOR: exec_cmd: hypervisor version 
+Sep 29 06:55:44.744 HYPERVISOR: exec_cmd: hypervisor working_dir C:\Users\Luis Daniel Pambid\GNS3\projects\OSPF EIGP Redistribution\project-files\dynamips 
+Sep 29 06:55:44.745 GENERAL: working_dir=C:\Users\Luis Daniel Pambid\GNS3\projects\OSPF EIGP Redistribution\project-files\dynamips
+Sep 29 06:55:44.745 HYPERVISOR: exec_cmd: hypervisor working_dir C:\Users\Luis Daniel Pambid\GNS3\projects\OSPF EIGP Redistribution\project-files\dynamips\d4b62785-90e2-4eb3-8672-cdc227e46938 
+Sep 29 06:55:44.753 GENERAL: working_dir=C:\Users\Luis Daniel Pambid\GNS3\projects\OSPF EIGP Redistribution\project-files\dynamips\d4b62785-90e2-4eb3-8672-cdc227e46938
+Sep 29 06:55:44.753 HYPERVISOR: exec_cmd: vm create R2 2 c7200 
+Sep 29 06:55:44.756 VM: VM R2 created.
+Sep 29 06:55:44.757 HYPERVISOR: exec_cmd: vm set_con_tcp_port R2 5001 
+Sep 29 06:55:44.757 HYPERVISOR: exec_cmd: c7200 get_mac_addr R2 
+Sep 29 06:55:44.757 HYPERVISOR: exec_cmd: vm get_status R2 
+Sep 29 06:55:44.757 HYPERVISOR: exec_cmd: vm slot_add_binding R2 0 0 C7200-IO-FE 
+Sep 29 06:55:44.758 HYPERVISOR: exec_cmd: vm set_ios R2 C:/Users/Luis Daniel Pambid/GNS3/images/IOS/c7200-adventerprisek9-mz.152-4.M7.image 
+Sep 29 06:55:44.759 HYPERVISOR: exec_cmd: vm set_exec_area R2 64 
+Sep 29 06:55:44.759 HYPERVISOR: exec_cmd: vm set_ram R2 512 
+Sep 29 06:55:44.760 HYPERVISOR: exec_cmd: vm set_nvram R2 512 
+Sep 29 06:55:44.760 HYPERVISOR: exec_cmd: vm set_disk0 R2 0 
+Sep 29 06:55:44.761 HYPERVISOR: exec_cmd: vm get_status R2 
+Sep 29 06:55:44.761 HYPERVISOR: exec_cmd: vm slot_remove_binding R2 0 0 
+Sep 29 06:55:44.762 HYPERVISOR: exec_cmd: vm get_status R2 
+Sep 29 06:55:44.762 HYPERVISOR: exec_cmd: vm slot_add_binding R2 0 0 C7200-IO-GE-E 
+Sep 29 06:55:44.762 HYPERVISOR: exec_cmd: vm get_status R2 
+Sep 29 06:55:44.763 HYPERVISOR: exec_cmd: vm slot_add_binding R2 1 0 PA-GE 
+Sep 29 06:55:44.763 HYPERVISOR: exec_cmd: vm get_status R2 
+Sep 29 06:55:44.763 HYPERVISOR: exec_cmd: vm slot_add_binding R2 2 0 PA-GE 
+Sep 29 06:55:44.764 HYPERVISOR: exec_cmd: vm get_status R2 
+Sep 29 06:55:44.764 HYPERVISOR: exec_cmd: vm slot_add_binding R2 3 0 PA-GE 
+Sep 29 06:55:44.764 HYPERVISOR: exec_cmd: vm get_status R2 
+Sep 29 06:55:44.765 HYPERVISOR: exec_cmd: vm slot_add_binding R2 4 0 PA-GE 
+Sep 29 06:55:44.765 HYPERVISOR: exec_cmd: vm get_status R2 
+Sep 29 06:55:44.765 HYPERVISOR: exec_cmd: vm slot_add_binding R2 5 0 PA-GE 
+Sep 29 06:55:44.766 HYPERVISOR: exec_cmd: vm get_status R2 
+Sep 29 06:55:44.766 HYPERVISOR: exec_cmd: vm slot_add_binding R2 6 0 PA-GE 
+Sep 29 06:55:44.861 HYPERVISOR: exec_cmd: vm set_ios R2 C:/Users/Luis Daniel Pambid/GNS3/images/IOS/c7200-adventerprisek9-mz.152-4.M7.image 
+Sep 29 06:56:37.899 HYPERVISOR: exec_cmd: vm set_ios R2 C:/Users/Luis Daniel Pambid/GNS3/images/IOS/c7200-adventerprisek9-mz.152-4.M7.image 
+Sep 29 06:56:54.229 HYPERVISOR: exec_cmd: vm set_ios R2 C:/Users/Luis Daniel Pambid/GNS3/images/IOS/c7200-adventerprisek9-mz.152-4.M7.image 
+Sep 29 06:56:59.649 HYPERVISOR: exec_cmd: nio create_udp udp-f3215a47-af76-46a5-aab0-8cf442e4fd21 10004 127.0.0.1 10005 
+Sep 29 06:56:59.920 HYPERVISOR: exec_cmd: vm slot_add_nio_binding R2 0 0 udp-f3215a47-af76-46a5-aab0-8cf442e4fd21 
+Sep 29 06:56:59.921 HYPERVISOR: exec_cmd: vm get_status R2 
+Sep 29 06:57:07.187 HYPERVISOR: exec_cmd: nio create_udp udp-19ff7a17-852f-40e5-8404-af6c4a389e41 10008 127.0.0.1 10009 
+Sep 29 06:57:07.190 HYPERVISOR: exec_cmd: vm slot_add_nio_binding R2 1 0 udp-19ff7a17-852f-40e5-8404-af6c4a389e41 
+Sep 29 06:57:07.191 HYPERVISOR: exec_cmd: vm get_status R2 
+Sep 29 06:57:25.009 HYPERVISOR: exec_cmd: vm set_ios R2 C:/Users/Luis Daniel Pambid/GNS3/images/IOS/c7200-adventerprisek9-mz.152-4.M7.image 
+Sep 29 07:01:30.381 HYPERVISOR: exec_cmd: vm set_ghost_status R2 2 
+Sep 29 07:01:30.394 HYPERVISOR: exec_cmd: vm set_ghost_file R2 C:\Users\Luis Daniel Pambid\GNS3\projects\OSPF EIGP Redistribution\project-files\dynamips\c7200-adventerprisek9-mz.152-4.M7.image-512.ghost 
+Sep 29 07:01:30.396 HYPERVISOR: exec_cmd: vm get_status R2 
+Sep 29 07:01:30.415 HYPERVISOR: exec_cmd: vm set_config R2 configs\i2_startup-config.cfg 
+Sep 29 07:01:30.417 HYPERVISOR: exec_cmd: vm start R2 
+Sep 29 07:02:00.878 HYPERVISOR: exec_cmd: vm extract_config R2 
+Sep 29 07:02:30.878 HYPERVISOR: exec_cmd: vm extract_config R2 
+Sep 29 07:04:21.368 HYPERVISOR: exec_cmd: vm set_ios R2 C:/Users/Luis Daniel Pambid/GNS3/images/IOS/c7200-adventerprisek9-mz.152-4.M7.image 
+Sep 29 07:52:01.978 HYPERVISOR: exec_cmd: vm extract_config R2 
