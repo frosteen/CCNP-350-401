@@ -16,6 +16,6 @@ A collection of study materials and GNS3 labs for practicing CCNP 350-401.
         * PA-GE
 
 ## Tip
-**If you liked my hard work, I would really appreciate if you can buy some coffee for me.**
+**If you like my hard work, I would appreciate it if you could buy some coffee for me.**
 
 [!["Buy Me A Coffee"](https://www.buymeacoffee.com/assets/img/custom_images/orange_img.png)](https://www.buymeacoffee.com/frosteen)
